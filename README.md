@@ -195,4 +195,4 @@ streamlit run app.py
 ---
 
 ## 👩‍💻 Author
-**Ananya Agrawal**  
+**Ananya Agrawal, Aarshiya Das**  

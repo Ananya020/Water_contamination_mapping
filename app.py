@@ -139,5 +139,5 @@ st.markdown("""
 - Post-monsoon rainfall improves water quality (dilution effect).
 """)
 
-st.info("Developed by Ananya Agrawal |  – SRM IST (Dept. of CSE)")
+st.info("Developed by Ananya Agrawal, Aarshiya Das |  – SRM IST (Dept. of CSE)")
 st.markdown("© 2025 All rights reserved.")

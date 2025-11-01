@@ -28,7 +28,17 @@ df["Category"] = df["hotspot_label"].map(label_map)
 if "district" not in df.columns:
     df["district"] = "Unknown"
 
+# ----------------------------------------------
+# 2️⃣ District filter (optional)
+# ----------------------------------------------
+districts = sorted(df["district"].unique())
+selected_district = st.selectbox("Select District", ["All"] + districts)
 
+# Filter dataset
+if selected_district == "All":
+    filtered_df = df.copy()
+else:
+    filtered_df = df[df["district"] == selected_district]
 
 # ----------------------------------------------
 # 3️⃣ Summary Metrics
